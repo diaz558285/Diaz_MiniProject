@@ -1,0 +1,163 @@
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background: url('../images/bg.jpg') no-repeat center center / cover;
+    text-align: center;
+    padding: 20px;
+    overflow-x: hidden; 
+    text-align: center;
+}
+
+.container {    
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+    border: 4px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.8);
+    backdrop-filter: blur(35px);
+}
+
+.homeBtn {
+    margin-top: 8px;
+    padding: 20px 40px;
+    font-size: 18px;
+    background:linear-gradient(to right, #0e3e0f, green) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    
+}
+
+.homeBtn:hover {
+    transform: scale(1.2); 
+    background-color: #45a049;
+}
+
+.portfolio-container{
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255,255,255,0.9);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.profile-img{
+    border-radius: 50%;
+    border: 4px solid #333;
+}
+
+.navbar{
+    height: auto;
+    background: #031e43;
+    padding: 30px;
+    font-size:20px;
+    width: 800px;
+    margin-left: 310px;
+    border-radius: 20px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 10px 15px;
+}
+
+.navbar a:hover{
+    text-decoration: dotted;
+    color: rgb(40, 152, 189);
+    border-radius: 4px;
+}
+
+.project-card{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background: white;
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.03);
+}
+
+h2{
+    color: #022556;
+    font-size: 30px;
+}
+
+input[type="date"],
+[type="email"],
+[type="text"],
+[type="password"],select{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 98%;
+    height: 33px;
+    border-radius: 4px;
+}
+
+input[type="date"],
+[type="email"],
+[type="text"],
+[type="password"]:hover {
+    cursor: text;
+}
+
+textarea{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 500px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+textarea:hover {
+    cursor: text;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+label{
+    font-size: 20px;
+    text-align: left;
+}
+
+button{
+   margin-top: 8px;
+    padding: 20px 40px;
+    font-size: 18px;
+    background:linear-gradient(to right, #0e3e0f, green) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    
+}
+
+button:hover {
+    transform: scale(1.2); 
+    background-color: #45a049;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    cursor: pointer;
+    color: #1a5c1b;
+}
